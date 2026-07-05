@@ -1,115 +1,202 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>PokéChamp Guide - Beginner Guide</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PokéChamp Guide - Beginner Guide</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f5f5f5;
+}
+
+nav{
+    background:#e3350d;
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+.container{
+    max-width:900px;
+    margin:auto;
+    padding:30px 20px;
+}
+
+.title{
+    text-align:center;
+    color:#e3350d;
+    margin-bottom:30px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    margin-bottom:20px;
+    border-radius:12px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card h2{
+    color:#e3350d;
+    margin-bottom:10px;
+}
+
+.card p,
+.card li{
+    line-height:1.6;
+}
+
+.card ul{
+    margin-left:20px;
+}
+
+.back{
+    display:inline-block;
+    background:#e3350d;
+    color:white;
+    text-decoration:none;
+    padding:12px 20px;
+    border-radius:8px;
+    margin-top:20px;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#222;
+    color:white;
+    margin-top:30px;
+}
+
+</style>
 </head>
+
 <body>
 
-<h1>📖 Beginner Guide</h1>
+<nav>
+    <a href="index.html">Home</a>
+    <a href="guide.html">Beginner Guide</a>
+</nav>
 
-<p>
-Welcome to PokéChamp Guide! If you're new to Pokémon
-Champions, start here.
-</p>
+<div class="container">
 
-<hr>
+    <h1 class="title">📖 Beginner Guide</h1>
 
-<h2>⚔️ What is a Pokémon Battle?</h2>
+    <div class="card">
+        <h2>⚔️ What is a Pokémon Battle?</h2>
 
-<p>
-In a Pokémon battle, each trainer uses Pokémon to defeat
-their opponent's team. The last trainer with Pokémon
-remaining wins.
-</p>
+        <p>
+            In Pokémon Champions, trainers battle using teams of Pokémon.
+            The goal is to defeat all of your opponent's Pokémon before they
+            defeat yours.
+        </p>
+    </div>
 
-<hr>
+    <div class="card">
+        <h2>🔥 Understanding Types</h2>
 
-<h2>🔥 Understanding Types</h2>
+        <p>
+            Every Pokémon has one or two types.
+            Types affect which moves are strong or weak against other Pokémon.
+        </p>
 
-<p>
-Every Pokémon has one or two types.
-</p>
+        <ul>
+            <li>Fire</li>
+            <li>Water</li>
+            <li>Grass</li>
+            <li>Electric</li>
+            <li>Dragon</li>
+            <li>And many more...</li>
+        </ul>
+    </div>
 
-<ul>
-    <li>Fire</li>
-    <li>Water</li>
-    <li>Grass</li>
-    <li>Electric</li>
-    <li>Dragon</li>
-    <li>And many more...</li>
-</ul>
+    <div class="card">
+        <h2>⭐ What is STAB?</h2>
 
-<p>
-Types determine which moves are strong or weak against
-other Pokémon.
-</p>
+        <p>
+            STAB stands for Same Type Attack Bonus.
+        </p>
 
-<hr>
+        <p>
+            If a Pokémon uses a move that matches one of its types,
+            the move becomes stronger.
+        </p>
 
-<h2>⭐ What is STAB?</h2>
+        <p>
+            Example:
+            Charizard uses Flamethrower.
+            Because Charizard is Fire-type and Flamethrower is a Fire-type move,
+            Flamethrower gets a damage boost.
+        </p>
+    </div>
 
-<p>
-STAB stands for Same Type Attack Bonus.
-</p>
+    <div class="card">
+        <h2>💪 Physical vs Special Moves</h2>
 
-<p>
-If a Pokémon uses a move that matches one of its types,
-the move becomes stronger.
-</p>
+        <p>
+            Physical moves use the Pokémon's Attack stat.
+        </p>
 
-<p>
-Example:
-Charizard uses Flamethrower.
-Since Charizard is Fire-type and Flamethrower is Fire-type,
-the move gets a power boost.
-</p>
+        <p>
+            Special moves use the Pokémon's Special Attack stat.
+        </p>
 
-<hr>
+        <p>
+            Example:
+        </p>
 
-<h2>💪 Physical vs Special Moves</h2>
+        <ul>
+            <li>Flamethrower → Special Move → Uses Special Attack</li>
+            <li>Fire Punch → Physical Move → Uses Attack</li>
+        </ul>
+    </div>
 
-<p>
-Physical Moves:
-Use the Attack stat.
-</p>
+    <div class="card">
+        <h2>😴 Status Conditions</h2>
 
-<p>
-Special Moves:
-Use the Special Attack stat.
-</p>
+        <ul>
+            <li>Burn - Reduces physical damage and deals damage each turn.</li>
+            <li>Poison - Deals damage every turn.</li>
+            <li>Sleep - Prevents actions for several turns.</li>
+            <li>Paralysis - Can stop movement and lowers Speed.</li>
+            <li>Freeze - Prevents movement until thawed.</li>
+        </ul>
+    </div>
 
-<p>
-Knowing which stat your Pokémon is better at helps you
-choose stronger moves.
-</p>
+    <div class="card">
+        <h2>🏆 Beginner Tips</h2>
 
-<hr>
+        <ul>
+            <li>Learn type matchups.</li>
+            <li>Don't use only attacking moves.</li>
+            <li>Switch Pokémon when needed.</li>
+            <li>Build a balanced team.</li>
+            <li>Practice and learn from your losses.</li>
+        </ul>
+    </div>
 
-<h2>😴 Status Conditions</h2>
+    <a href="index.html" class="back">⬅ Back Home</a>
 
-<ul>
-    <li>Burn - Reduces physical damage.</li>
-    <li>Poison - Damages a Pokémon each turn.</li>
-    <li>Sleep - Prevents actions for several turns.</li>
-    <li>Paralysis - May stop movement and lowers speed.</li>
-    <li>Freeze - Prevents movement until thawed.</li>
-</ul>
+</div>
 
-<hr>
-
-<h2>🏆 Beginner Tips</h2>
-
-<ul>
-    <li>Don't use only attacking moves.</li>
-    <li>Switch Pokémon when needed.</li>
-    <li>Learn type matchups.</li>
-    <li>Build a balanced team.</li>
-    <li>Practice and learn from losses.</li>
-</ul>
-
-<hr>
-
-<a href="index.html">⬅ Back Home</a>
+<footer>
+    © 2026 PokéChamp Guide
+</footer>
 
 </body>
 </html>
